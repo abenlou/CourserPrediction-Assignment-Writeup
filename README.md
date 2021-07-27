@@ -90,7 +90,7 @@ result <- predict(modelRf, testCleaned[, -length(names(testCleaned))])
 result
 ```  
 
-## Appendix: Figures
+## Figures
 1. Correlation Matrix Visualization  
 ```{r, cache = T}
 corrPlot <- cor(trainData[, -length(names(trainData))])
